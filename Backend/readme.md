@@ -11,7 +11,7 @@
 2. **Navigate to the backend directory**:
 
     ```bash
-    cd <repository-directory>/backend
+    cd Assured-Contract-Farming-System/backend
     ```
 
 3. **Install dependencies**:
