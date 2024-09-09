@@ -1,5 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
+const farmerRoutes = require('./routes/farmerRoutes')
 const connectDB = require("./config/db");
 const app = express();
 
@@ -17,6 +18,7 @@ app.get("/", (req, res)=> {
 })
 
 
+app.use('/api/v1/farmer', farmerRoutes);
 
 
 const PORT = process.env.PORT || 3000;
