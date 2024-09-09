@@ -1,0 +1,1 @@
+# add routes for each model in a sep file
